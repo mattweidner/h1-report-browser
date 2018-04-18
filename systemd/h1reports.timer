@@ -1,0 +1,9 @@
+[Unit]
+Description=Grab newley disclosed H1 reports daily.
+
+[Timer]
+OnCalendar=daily
+Unit=h1reports.service
+
+[Install]
+WantedBy=timers.target

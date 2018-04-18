@@ -1,0 +1,5 @@
+venv/
+old/
+reports/*.json
+reports/new/*.json
+h1-reports.db

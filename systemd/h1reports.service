@@ -1,0 +1,10 @@
+[Unit]
+Description=Foo
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/timeout 30m /usr/bin/python2 /home/orion/bugbounty/h1/h1-dl-reports.py
+ExecStartPost=/usr/bin/python2 /home/orion/bugbounty/h1/import_new_reports.py
+
+[Install]
+WantedBy=multi-user.target
