@@ -1,7 +1,7 @@
 # H1 Report Browser
 ## Author: Matthew A. Weidner
 
-These scripts provide a system that will download and import newly disclosed bug bounty reports into a SQLite3 database. This allows for offline browsing using a ncurses terminal based interface for Unix/Linux based computers. Compatible with Cygwin for Windows.
+These scripts provide a system that will download and import newly disclosed HackerOne bug bounty reports into a SQLite3 database. This allows for offline browsing using a ncurses terminal based interface for Unix/Linux based computers. Compatible with Cygwin for Windows.
 
 * h1-browser.py:
 Ncurses terminal based HackerOne report browser. Uses an offline cache of HackerOne reports stored in a SQLite3 database.
